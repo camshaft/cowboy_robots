@@ -1,0 +1,11 @@
+{application, cowboy_robots, [
+  {id, "cowboy_robots"},
+  {description, "Robots.txt middleware for cowboy"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
